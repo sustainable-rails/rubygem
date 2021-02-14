@@ -1,19 +1,19 @@
-require_relative 'lib/with_clues/version'
+#require_relative "lib/«gem»/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "with_clues"
-  spec.version       = WithClues::VERSION
+  spec.name          = "rubygem"
+  spec.version       = "1.0.0"# «GemName»::VERSION
   spec.authors       = ["Dave Copeland"]
   spec.email         = ["davec@naildrivin5.com"]
-  spec.summary       = %q{Provide additional context when any tests fails}
+  spec.summary       = %q{WTF does this do?}
   spec.homepage      = "https://sustainable-rails.com"
   spec.license       = "Hippocratic"
 
   spec.required_ruby_version = Gem::Requirement.new(">= 2.5.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/sustainable-rails/with_clues"
-  spec.metadata["changelog_uri"] = "https://github.com/sustainable-rails/with_clues/releases"
+  spec.metadata["source_code_uri"] = "https://github.com/sustainable-rails/«gem_name»"
+  spec.metadata["changelog_uri"] = "https://github.com/sustainable-rails/«gem_name»/releases"
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
