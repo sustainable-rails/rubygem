@@ -1,4 +1,4 @@
-[GEM NAME HERE] Copyright (2021) (David Copeland)(“Licensor”)
+[rubygem] Copyright (2021) (David Copeland)(“Licensor”)
 
 Hippocratic License Version Number: 2.1.
 
