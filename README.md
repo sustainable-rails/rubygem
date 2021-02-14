@@ -6,7 +6,10 @@
 
 ## Install
 
-* Make a new repo in GitHub using this as a template
+1. Make a new repo in GitHub using this as a template
+1. Clone it
+1. Run `bin/mk_gem «name of your gem»`
+1. Delete `bin/mk_gem`
 
 ## Developing
 
