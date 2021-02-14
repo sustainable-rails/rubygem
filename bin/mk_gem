@@ -63,7 +63,7 @@ end
 
 readme = File.read(root / "README.md")
 File.open(root / "README.md","w") do |file|
-  license.split(/\n/).each_with_index do |line,index|
+  readme.split(/\n/).each_with_index do |line,index|
     if index == 0
       file.puts "# #{gem_name} - does a thing"
     else
